@@ -1,0 +1,17 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
+
+@import "nativewind/theme";
+
+@theme {
+  --color-background: #f3f4f6;
+  --color-primary: #ffffff;
+  --color-button: #1e3a5f;
+}
+
+@component {
+  .card {
+    @apply bg-white rounded-lg p-5;
+  }
+}
